@@ -88,15 +88,15 @@ export default {
 }
 
 .card-title-xs {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .card-title-sm {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .card-title-md {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .card-title-lg {
@@ -104,7 +104,7 @@ export default {
 }
 
 .card-text-xs {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .card-text-sm {

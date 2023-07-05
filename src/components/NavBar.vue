@@ -8,7 +8,8 @@
       </div>
       <v-toolbar-title id="title" class="text-uppercase">
         <P v-if="$vuetify.breakpoint.smAndUp" color="grey">እናት የኣቾሎኒ ቅቤ <br> Enat Peanut Butter</p>
-        <P v-if="$vuetify.breakpoint.xs" style="font-size: 14px;" color="grey">እናት የኣቾሎኒ ቅቤ <br> Enat Peanut Butter</p>
+        <P v-if="$vuetify.breakpoint.xs" style="font-size: 14px;" color="grey">እና
+          ት የኣቾሎኒ ቅቤ <br> Enat Peanut Butter</p>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <div class="links"><v-toolbar-items>
