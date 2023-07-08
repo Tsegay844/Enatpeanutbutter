@@ -49,7 +49,7 @@ Use the following addresses to reach us. Our customer response team is ready to 
             </v-list-item-action>
 
             <v-list-item-content>
-              <v-list-item-title> enatpeanutbutter@gmail.com</v-list-item-title>
+              <v-list-item-title> enat.peanut.butter@gmail.com</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 

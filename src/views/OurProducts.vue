@@ -13,7 +13,7 @@
           'card-title-sm': $vuetify.breakpoint.smAndUp,
           'card-title-md': $vuetify.breakpoint.mdAndUp,
         }" style="color:whitesmoke">
-          <span> <Strong>Products we Offer</Strong></span>
+          <span> <Strong>Our Products and Brands</Strong></span>
         </v-card-title>
       </v-container>
       <v-divider height="5px" color="dimgrey" />
@@ -22,7 +22,7 @@
       <v-divider height="5px" color="dimgrey" />
       <v-card flat height="20px"></v-card>
       <v-card flat height="2px"></v-card>
-      <p>Our products are Organic, Flavorful and Nutritious! <br> <Strong>Quality is our Motto! </Strong></p>
+      <p style="font-size: 22px;">Our Products are Organic, Flavorful and Nutritious! <br> <Strong>Quality is our Motto! </Strong></p>
       <v-container fluid>
         <v-row dense>
           <v-col cols="12" xs="12" sm="6" md="4" lg="3" v-for="bodyImage in bodyImages" :key="bodyImage.title">
@@ -47,10 +47,10 @@ export default {
       { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 6 },
     ],
     bodyImages: [
-      { title: '100gram', src: require("../assets/p1kg.jpg") },
-      { title: '60gram', src: require("../assets/p0.6kg.jpg") },
-      { title: '40gram', src: require("../assets/p0.4kg.jpg") },
-      { title: 'እናት መዳፈ', src: require("../assets/pmedafe.jpg") },
+      { title: '1kg', src: require("../assets/p1kg.jpg") },
+      { title: '0.6kg', src: require("../assets/p0.6kg.jpg") },
+      { title: '0.4kg', src: require("../assets/p0.4kg.jpg") },
+      // { title: 'እናት መዳፈ', src: require("../assets/pmedafe.jpg") },
     ],
     bgImage: require("../assets/bg1.jpg"),
     title: 'Card Title',

@@ -75,7 +75,7 @@ export default {
         {  title: 'peanut-plant', src: require("../assets/body1.jpg") },
         {  title: 'raw-peanuts', src: require("../assets/body2.jpg") },
         {  title: 'Peanut cream', src: require("../assets/body3.jpg") },
-        {  title: 'እናት መዳፈ', src: require("../assets/body4.jpg") }, 
+        // {  title: 'እናት መዳፈ', src: require("../assets/body4.jpg") }, 
       ],
     bgImage: require("../assets/bg1.jpg"),
     title: 'Card Title',
