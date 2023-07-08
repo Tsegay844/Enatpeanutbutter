@@ -48,8 +48,8 @@ export default {
     ],
     bodyImages: [
       { title: '1kg', src: require("../assets/p1kg.jpg") },
-      { title: '0.6kg', src: require("../assets/p0.6kg.jpg") },
-      { title: '0.4kg', src: require("../assets/p0.4kg.jpg") },
+      { title: '0.5kg', src: require("../assets/p0.6kg.jpg") },
+      { title: '360gram', src: require("../assets/p0.4kg.jpg") },
       // { title: 'እናት መዳፈ', src: require("../assets/pmedafe.jpg") },
     ],
     bgImage: require("../assets/bg1.jpg"),

@@ -7,13 +7,13 @@
     >
       <v-card>
         <v-card-title class="cyan darken-1" :style="{ background: 'url(' + imageSrc + ')' }">
-          <span class="text-h5 white--text"><Strong>Contact us</Strong> </span>
+          <span class="text-h5 white--text"><Strong>Contact Us</Strong> </span>
           <v-spacer></v-spacer> 
         </v-card-title>
       <v-card flat height="15px"></v-card>
-        <p>We want to hear from you!<br> 
-Would you like to send feedback on our product?<br>
-Use the following addresses to reach us. Our customer response team is ready to serve you!</P>
+        <p>Would you like to send us feedback on our product?<br><strong>We are excited to hear from you!</strong> 
+<br>Our customer response team is ready to serve you.
+Use the following addresses to reach us. </P>
         <v-list>
           <v-list-item>
             <v-list-item-action>

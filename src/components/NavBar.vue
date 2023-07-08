@@ -7,9 +7,9 @@
         </v-avatar>
       </div>
       <v-toolbar-title id="title" class="text-uppercase">
-        <P v-if="$vuetify.breakpoint.smAndUp" color="grey">እናት የኣቾሎኒ ቅቤ <br> Enat Peanut Butter</p>
-        <P v-if="$vuetify.breakpoint.xs" style="font-size: 14px;" color="grey">እና
-          ት የኣቾሎኒ ቅቤ <br> Enat Peanut Butter</p>
+        <P v-if="$vuetify.breakpoint.smAndUp" color="grey">እናት የኦቾሎኒ
+ ቅቤ <br> Enat Peanut Butter</p>
+        <P v-if="$vuetify.breakpoint.xs" style="font-size: 14px;" color="grey">እናት የኦቾሎኒ ቅቤ <br> Enat Peanut Butter</p>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <div class="links"><v-toolbar-items>
@@ -18,7 +18,7 @@
           <router-link v-if="$vuetify.breakpoint.mdAndUp" to="/OurProducts" class="link"
             :style="{ color: 'black', hover }">Products</router-link>
           <router-link v-if="$vuetify.breakpoint.mdAndUp" to="/AboutView" class="link"
-            :style="{ color: 'black' }">About-us</router-link>
+            :style="{ color: 'black' }">About Us</router-link>
           <router-link v-if="$vuetify.breakpoint.mdAndUp" to="/Contact" class="link"
             :style="{ color: 'black' }">Contacts</router-link>
           <v-icon v-if="$vuetify.breakpoint.mdAndUp" class="link" :style="{ color: 'dimgray' }">mdi-magnify</v-icon>
@@ -65,8 +65,8 @@ export default {
       links: [
         // { icon: 'md:home', text: '', route: '/' },
         { icon: 'mdi-home ', text: 'Home', route: '/Home' },
-        { icon: 'mdi-food', text: 'Our products', route: '/OurProducts' },
-        { icon: 'mdi-briefcase', text: 'About-us', route: '/AboutView' },
+        { icon: 'mdi-food', text: 'Products', route: '/OurProducts' },
+        { icon: 'mdi-briefcase', text: 'About Us', route: '/AboutView' },
         { icon: 'person', text: 'Contact-us', route: '/Contact' },
       ],
 
