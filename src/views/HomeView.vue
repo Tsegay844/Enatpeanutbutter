@@ -13,7 +13,8 @@
           'card-title-sm': $vuetify.breakpoint.smAndUp,
           'card-title-md': $vuetify.breakpoint.mdAndUp,
         }" style="color:whitesmoke">
-          <span> <Strong>Peanut Butter Manufacturing Company</Strong></span>
+          <span v-if="$vuetify.breakpoint.smAndUp"> <Strong>Peanut Butter Manufacturing Company</Strong></span>
+          <span v-if="$vuetify.breakpoint.xs"> <Strong>Peanut Butter Manufacturing </Strong></span>
         </v-card-title>
         <v-divider height="5px" color="dimgrey" />
         <v-card-text :class="{
