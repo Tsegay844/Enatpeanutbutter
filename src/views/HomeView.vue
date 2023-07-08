@@ -34,10 +34,10 @@
     <v-divider height="5px" color="dimgrey" />
     <v-card flat
     height="20px"></v-card> 
-      <h3 style="color:dimgray">Experts in Peanut Butter</h3>
+      <h3 style="color:dimgray">Our Vision</h3>
       <v-card flat
-    height="8px"></v-card>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestiae, unde temporibus nam omnis soluta dolore tempora est at aperiam culpa, nihil laboriosam aut modi quas id aspernatur impedit similique!</p>
+    height="2px"></v-card>
+      <p>We envision to be one of the top peanut foods manufacturing companies in the Horn of Africa. For the last five years, our company has brought innovation, branding and outstanding value to our consumers, customers and the community. We are proud of our achievements so far but we are more motivated to set the standard in food processing in the horn. Our hardworking experts are our pride! </p>
       <v-container fluid>
       <v-row dense>
         <v-col

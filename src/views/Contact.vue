@@ -10,6 +10,10 @@
           <span class="text-h5 white--text"><Strong>Contact us</Strong> </span>
           <v-spacer></v-spacer> 
         </v-card-title>
+      <v-card flat height="15px"></v-card>
+        <p>We want to hear from you!<br> 
+Would you like to send feedback on our product?<br>
+Use the following addresses to reach us. Our customer response team is ready to serve you!</P>
         <v-list>
           <v-list-item>
             <v-list-item-action>
@@ -64,7 +68,7 @@
 
         <v-img
           
-          height="200px"
+          height="50px"
         ></v-img>
       </v-card>
     </v-col>

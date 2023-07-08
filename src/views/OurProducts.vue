@@ -18,38 +18,24 @@
       </v-container>
       <v-divider height="5px" color="dimgrey" />
     </v-card>
-    <v-card class="mx-auto"
-    max-width="1250"
-    flat>
-    <v-divider height="5px" color="dimgrey" />
-    <v-card flat
-    height="20px"></v-card> 
-      <h3 style="color:dimgray">Experts in Peanut Butter</h3>
-      <v-card flat
-    height="8px"></v-card>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestiae, unde temporibus nam omnis soluta dolore tempora est at aperiam culpa, nihil laboriosam aut modi quas id aspernatur impedit similique!</p>
+    <v-card class="mx-auto" max-width="1250" flat>
+      <v-divider height="5px" color="dimgrey" />
+      <v-card flat height="20px"></v-card>
+      <v-card flat height="2px"></v-card>
+      <p>Our products are Organic, Flavorful and Nutritious! <br> <Strong>Quality is our Motto! </Strong></p>
       <v-container fluid>
-      <v-row dense>
-        <v-col
-        cols="12" xs="12" sm="6" md="4" lg="3"
-          v-for="bodyImage in bodyImages"
-          :key="bodyImage.title"
-        >
-          <v-card>
-            <v-img
-              :src="bodyImage.src"
-              class="align-end"
-              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-              height="220px"
-              cover
-            >  
-            </v-img>
-            <P class="text-8 text-italic text-center" > {{bodyImage.title}}</p>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
-    </v-card>       
+        <v-row dense>
+          <v-col cols="12" xs="12" sm="6" md="4" lg="3" v-for="bodyImage in bodyImages" :key="bodyImage.title">
+            <v-card>
+              <v-img :src="bodyImage.src" class="align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+                height="220px" cover>
+              </v-img>
+              <P class="text-8 text-italic text-center"> {{ bodyImage.title }}</p>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card>
   </div>
 </template>
 <script>
@@ -61,11 +47,11 @@ export default {
       { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 6 },
     ],
     bodyImages: [
-        {  title: '1kg', src: require("../assets/p1kg.jpg") },
-        {  title: '60g', src: require("../assets/p0.6kg.jpg") },
-        {  title: '4g', src: require("../assets/p0.4kg.jpg") },
-        {  title: 'እናት መዳፈ', src: require("../assets/pmedafe.jpg") }, 
-      ],
+      { title: '100gram', src: require("../assets/p1kg.jpg") },
+      { title: '60gram', src: require("../assets/p0.6kg.jpg") },
+      { title: '40gram', src: require("../assets/p0.4kg.jpg") },
+      { title: 'እናት መዳፈ', src: require("../assets/pmedafe.jpg") },
+    ],
     bgImage: require("../assets/bg1.jpg"),
     title: 'Card Title',
     text: 'Card content here'
@@ -108,21 +94,21 @@ export default {
 .card-text-sm {
   font-size: 22px;
 }
-.body{
+
+.body {
   margin-left: 200px;
   margin-right: 200px;
 }
+
 .text-10 {
   font-size: 5px !important;
 }
 
 .text-italic {
-  font-style: italic !important; 
+  font-style: italic !important;
 }
 
 .text-center {
   text-align: center !important;
 }
-
-
 </style>
