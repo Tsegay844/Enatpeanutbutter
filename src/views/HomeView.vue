@@ -106,7 +106,7 @@ export default {
         // {  title: 'እናት መዳፈ', src: require("../assets/body4.jpg") }, 
       ],
     bgImage: require("../assets/bg1.jpg"),
-    bgImage1: require("../assets/trat1.jpg"),
+    bgImage1: require("../assets/trat4.jpg"),
     title: 'Card Title',
     text: 'Card content here'
   }),
