@@ -67,7 +67,7 @@
       backgroundImage: `url(${bgImage1})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      width: '100%',
+      width: '90%',
       display: flex, justify: center
     }"  height="500px">
       <v-container fluid>
@@ -84,7 +84,7 @@
           'card-text-md': $vuetify.breakpoint.mdAndUp,
           'card-text-lg': $vuetify.breakpoint.lgAndUp
         }" style="color:#6200ea">
-          <span style="font-size: 28px;"><Strong>Confirmation Assessment by Ethiopian Food and Drug Authority</Strong></span>
+          <span style="font-size: 28px;"><Strong>Conformity Assessment by Ethiopian Food and Drug Authority</Strong></span>
         </v-card-text>
       </v-container>
       <v-divider height="5px" color="dimgrey" />
