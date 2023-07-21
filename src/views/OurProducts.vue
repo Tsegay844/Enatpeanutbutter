@@ -28,7 +28,7 @@
           <v-col cols="12" xs="12" sm="6" md="4" lg="3" v-for="bodyImage in bodyImages" :key="bodyImage.title">
             <v-card>
               <v-img :src="bodyImage.src" class="align-end" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-                height="220px" cover>
+                height="240px" cover>
               </v-img>
               <P class="text-8 text-italic text-center"> {{ bodyImage.title }}</p>
             </v-card>
