@@ -1,9 +1,9 @@
 <template>
     <v-footer class="d-flex flex-column primary">
       <div class="bg-teal d-flex w-100 align-center px-4">
-         <strong>enat peanut butter</strong>
+         <strong>enat peanut butter</strong><br/>
         <strong>Indulge in the creamy goodness of our signature peanut butter, freshly made in Mekelle, Ethiopia.</strong>
-           <p>enatpeanutbutter</p>
+          
         <!-- <v-spacer></v-spacer>
         <v-btn 
         href="https://www.facebook.com/meles.gebreyesus"  
